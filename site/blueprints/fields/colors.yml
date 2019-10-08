@@ -1,0 +1,13 @@
+label: Colors
+type: select
+options:
+	- White
+	- Black
+	- Blue
+	- Yellow
+	- Cyan
+	- Orange
+	- Purple
+	- Brown
+	- Green
+	- Pink

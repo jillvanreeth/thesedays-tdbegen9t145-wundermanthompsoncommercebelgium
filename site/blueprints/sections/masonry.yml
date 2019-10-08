@@ -1,0 +1,10 @@
+type: pages
+headline: Masonry articles
+parent: site.find("masonry")
+size: tiny
+info: "{{ page.images.count }} image(s)"
+layout: list
+image:
+  cover: true
+template: masonryitem
+empty: No articles yet

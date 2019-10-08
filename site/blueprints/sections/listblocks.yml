@@ -1,0 +1,11 @@
+type: pages
+headline: List blocks
+parent: site.find("home")
+size: tiny
+info: "{{ page.images.count }} image(s)"
+layout: list
+image:
+  cover: true
+template: listblock
+empty: No articles yet
+sortable: false

@@ -1,0 +1,57 @@
+$colors: (
+	'light': #FFFFFF,
+	'dark': #000,
+	'action': #0A47ED,
+	'hover': #00D1D9,
+	'disabled': #d9d9d9,
+	'positive': #3FCE9B,
+	'negative': #F96F6F,
+	'black': #000,
+	'white': #FFFFFF,
+	'blue': #0A47ED,
+	'pink': #E661B2,
+	'yellow': #FADE4F,
+	'cyan': #00D1D9,
+	'orange': #FF760C,
+	'purple': #600083,
+	'brown': #821B20,
+	'green': #5BE280,
+	'neutrals-0': #000000,
+	'neutrals-1': #3D3D3D,
+	'neutrals-2': #CACACA,
+);
+
+$colorpairings: (
+	'pairing-cyan': (
+		'primary': #00D1D9,
+		'secondary': #0A47ED,
+	),
+	'pairing-blue': (
+		'primary': #0A47ED,
+		'secondary': #00D1D9,
+	),
+	'pairing-pink': (
+		'primary': #E661B2,
+		'secondary': #5BE280,
+	),
+	'pairing-green': (
+		'primary': #5BE280,
+		'secondary': #E661B2,
+	),
+	'pairing-yellow': (
+		'primary': #FADE4F,
+		'secondary': #FF760C,
+	),
+	'pairing-orange': (
+		'primary': #FF760C,
+		'secondary': #821B20,
+	),
+	'pairing-brown': (
+		'primary': #821B20,
+		'secondary': #FF760C,
+	),
+	'pairing-purple': (
+		'primary': #600083,
+		'secondary': #E661B2,
+	),
+);

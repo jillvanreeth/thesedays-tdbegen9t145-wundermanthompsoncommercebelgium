@@ -1,0 +1,135 @@
+$iconSize: 30px;
+
+.contact {
+	@include media('small') {
+		padding: 0 gap('xsmall') (gap('xlarge') / 2);
+	}
+
+	display: block;
+	width: 100%;
+	width: 100%;
+	max-width: section('xlarge');
+	margin: 0 auto;
+	padding: (gap('large') / 2) gap('xsmall');
+}
+
+.contact__inner {
+	@include media('small') {
+		padding: gap('large') 0 0;
+	}
+	border-top: 1px solid color('neutrals-2');
+	padding: gap('large') 0 0;
+}
+
+.contact__title {
+	@include media('small') {
+		font-size: titleSize('h1');
+	}
+
+	display: block;
+	padding: 0 0 gap('medium');
+	color: color('blue');
+	font-size: titleSize('h3');
+	font-weight: 700;
+	line-height: 1;
+	text-transform: uppercase;
+}
+
+.contact__items {
+	@include media('small') {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0 (- gap('xsmall'));
+	}
+}
+
+.contact__item {
+	@include media('small') {
+		margin-bottom: 0;
+	}
+
+	position: relative;
+	flex: 1 1 25%;
+	margin-bottom: gap('medium');
+
+	&:after {
+		@include media('small') {
+			bottom: gap('medium');
+			left: 15px;
+			width: calc(100% - 30px);
+		}
+
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		display: block;
+		width: 100%;
+		height: 1px;
+		background-color: color('neutrals-2');
+		content: '';
+	}
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.contact__item__inner {
+	@include media('small') {
+		margin: 0 gap('xsmall') gap('medium');
+		padding: 0 0 gap('medium');
+	}
+
+	margin: gap('xsmall') 0 0;
+	padding: 0 0 gap('xsmall');
+
+
+	&:first-child {
+		margin-top: 0;
+	}
+}
+
+.contact__item__visual {
+	position: relative;
+	width: 100%;
+	height: 0;
+	margin: 0;
+	padding: 0;
+	padding-top: 60%;
+	overflow: hidden;
+
+	img {
+		transform: translate(-50%,-50%);
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 100%;
+		height: auto;
+	}
+}
+
+.contact__content {
+	@include media('small') {
+		padding: gap('medium') ($iconSize + gap('xxsmall')) 0 0;
+	}
+
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	padding: gap('xsmall') gap('xxsmall') 0;
+	font-weight: 400;
+}
+
+.contact__icon {
+	@include media('small') {
+		right: 0;
+	}
+
+	position: absolute;
+	right: gap('xxsmall');
+	bottom: 0;
+	z-index: 3;
+	display: block;
+	width: $iconSize;
+	height: $iconSize;
+}

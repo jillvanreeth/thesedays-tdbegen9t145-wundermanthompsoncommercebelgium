@@ -1,0 +1,121 @@
+title: Masonry Article
+icon: dashboard
+
+options: 
+  delete: true
+  duplicate: false
+  preview: "{{ site.url }}/#{{ page.slug }}"
+
+status:
+    draft:
+    label: Draft
+    text: The article is still in draft mode. It can only be seen by editors with panel access.
+  unlisted:
+    label: Unlisted
+    text: The article is online and can be visited with the direct URL.
+  listed:
+    label: Published
+    text: The article is online and published to the front page
+
+tabs:
+  content: 
+    label: content
+    icon: text
+    columns:
+      left:
+        width: 2/3
+        fields:
+
+          title_toggle:
+            type: toggle
+            label: Show or hide title
+            default: true
+            width: 1/3
+
+          description:
+            type: markdown
+
+  cta:
+    label: CTA
+    icon: url
+    columns: 
+      left:
+        width: 2/3
+        sections:
+
+          cta_step1:
+            type: fields
+            fields:
+              cta_toggle:
+                label: Show or hide CTA
+                type: toggle
+                help: 'Toggle whether add a CTA'
+                width: 1/3
+
+          cta_step2:
+            type: fields
+            fields:
+              cta_label:
+                when: 
+                  cta_toggle: true
+                label: CTA label
+                type: text
+                width: 1/2
+
+              cta_url:
+                when: 
+                  cta_toggle: true
+                label: CTA url
+                type: url
+                width: 1/2
+
+  styling:
+    label: Styling
+    icon: edit
+    columns:
+      left:  
+        sections:
+
+          styling_step1:
+            type: fields
+            fields:
+              font_color:
+                label: Font color
+                extends: fields/colors
+                width: 1/3
+
+              background_color:
+                extends: fields/colors
+                label: Background color
+                width: 1/3
+
+          styling_step2:
+            type: fields
+            fields:
+              background_image_toggle:
+                label: Show or hide image
+                type: toggle
+                help: 'Toggle whether to add an image'
+                width: 1/3
+
+          styling_step3:
+            type: fields
+            fields:
+              background_image_size_toggle:
+                when:
+                  background_image_toggle: true
+                label: Set image to the background
+                type: toggle
+                help: 'Toggle whether to set this image to the background or beneath the text.'  
+                width: 1/3
+
+              background_image:
+                when:
+                  background_image_toggle: true
+                label: Image
+                extends: fields/visual
+                width: 1/3
+
+
+
+

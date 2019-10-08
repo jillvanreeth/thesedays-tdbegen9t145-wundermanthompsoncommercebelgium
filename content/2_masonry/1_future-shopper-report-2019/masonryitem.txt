@@ -1,0 +1,43 @@
+Title: Future Shopper Report 2019
+
+----
+
+Title-toggle: true
+
+----
+
+Description: Wunderman Thompson Commerce Belgium is an eCommerce consultancy that brings strategic clarity, tech know-how and creative inspiration to help brands deliver winning commerce capabilities across digital channels: marketplaces (including Amazon), online retail and D2C.
+
+----
+
+Cta-toggle: true
+
+----
+
+Cta-label: Register
+
+----
+
+Cta-url: https://www.wundermanthompson.com/
+
+----
+
+Font-color: 
+
+----
+
+Background-color: Pink
+
+----
+
+Background-image-toggle: true
+
+----
+
+Background-image-size-toggle: false
+
+----
+
+Background-image:
+
+- article-1-bg.jpg

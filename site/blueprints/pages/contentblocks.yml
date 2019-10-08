@@ -1,0 +1,22 @@
+title: Contentblocks
+icon: text
+
+columns:
+  - width: 1/2
+    sections:
+      drafts:
+        extends: sections/contentblocks
+        headline: Drafts
+        status: draft
+
+      unlisted:
+        extends: sections/contentblocks
+        headline: In Review
+        status: unlisted
+
+  - width: 1/2
+    sections:
+      listed:
+        extends: sections/contentblocks
+        headline: Published
+        status: listed

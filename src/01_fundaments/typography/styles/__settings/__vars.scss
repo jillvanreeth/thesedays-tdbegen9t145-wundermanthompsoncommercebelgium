@@ -1,0 +1,23 @@
+$fontFamily: Roboto, Helvetica, Arial, serif;
+
+$fontSizes: (
+	'inherit' : inherit,
+	'xxsmall' : 12px,
+	'xsmall'  : 14px,
+	'small'   : 16px,
+	'medium'  : 17px,
+	'large'   : 20px,
+	'xlarge'  : 22px,
+	'xxlarge' : 24px,
+);
+
+$titleSizes: (
+	'inherit' : inherit,
+	'h6'  	  : 13px,
+	'h5'      : 14px,
+	'h4'      : 20px,
+	'h3'      : 22px,
+	'h2'      : 25px,
+	'h1'      : 35px,
+	'h0'      : 60px
+);

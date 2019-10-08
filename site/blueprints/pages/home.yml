@@ -1,0 +1,87 @@
+title: Home
+icon: 🏠
+
+options:
+	changeStatus: false
+	preview: "{{ page.parent.url }}"
+
+
+tabs:
+  sections:
+    label: Sections
+    sections:  
+      info:
+        label: Info
+        type: info
+        text: This is an overview of all sections published on the homepage. Order sections here (drag and drop).
+
+      sections:
+        type: pages
+        status: all
+        create:
+          - articles
+          - contentblock
+          - listblock
+        templates:
+          - articles
+          - linkedin
+          - masonry
+          - contentblock
+          - listblock
+          - contact
+
+  metatags:
+    label: Metatags
+    fields:
+      info-0:
+        label: Info
+        type: info
+        text: These metatags are used for SEO.
+
+      meta_description:
+        label: Meta description
+        type: text
+
+      meta_keywords:
+        label: Meta keywords
+        type: text
+
+      line-0:
+        type: line
+
+      info-1:
+        label: Info
+        type: info
+        text: These metatags are used for social media.
+
+      fb_title: 
+        label: Facebook Title
+        type: text
+        width: 1/2
+
+      fb_description:
+        label: Facebook Description
+        type: text
+        width: 1/2
+
+      tw_title: 
+        label: Twitter Title
+        type: text
+        width: 1/2
+
+      tw_description:
+        label: Twitter Description
+        type: text
+        width: 1/2
+        maxlength: 280
+        help: Maximum number of allowed characters is 280.
+
+      share_image:
+        label: Image
+        help: This image will be used when the page is shared.
+        extends: fields/visual
+        width: 1/3
+
+
+
+

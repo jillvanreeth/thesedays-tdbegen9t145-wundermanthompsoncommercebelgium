@@ -1,0 +1,27 @@
+.footer {
+	color: color('light');
+	text-align: center;
+	background-color: color('blue');
+	margin-top: gap('large');
+
+	@include media('xsmall') {
+		margin-top: (gap('xxlarge') - gap('xlarge') / 2);
+	}
+}
+
+.footer__inner {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	max-width: section('xlarge');
+	margin: 0 auto;
+	padding: 100px gap('xsmall');
+}
+
+.footer__title {
+	font-size: titleSize('h6');
+	line-height: 2;
+	font-weight: 700;
+	text-transform: uppercase;
+}

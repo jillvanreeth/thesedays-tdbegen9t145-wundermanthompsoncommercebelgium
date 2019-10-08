@@ -1,0 +1,30 @@
+Title: Contact
+
+----
+
+Title-toggle: true
+
+----
+
+Items:
+
+- 
+  contactname: Denis Ghys
+  jobtitle: Managing Director Commerce
+  linkedinpage: https://www.linkedin.com/in/denisghys/
+  visual:
+    - 0.jpg
+- 
+  contactname: Alex Stergialis
+  jobtitle: Strategy Director Commerce
+  linkedinpage: >
+    https://www.linkedin.com/in/alex-stergialis-bb74544/
+  visual:
+    - 0-3.jpg
+- 
+  contactname: ' Johan De Keulenaer'
+  jobtitle: Strategic Growth
+  linkedinpage: >
+    https://be.linkedin.com/in/johandekeulenaer
+  visual:
+    - 0-4.jpg

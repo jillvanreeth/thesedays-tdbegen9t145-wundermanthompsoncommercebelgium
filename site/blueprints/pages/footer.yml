@@ -1,0 +1,21 @@
+title: Footer
+
+options: 
+  changeSlug: false
+  preview: "{{ page.parent.url }}/#{{ page.slug }}"
+
+fields:
+  items:
+    label: Links
+    type: structure
+    fields:
+      name:
+        label: URL title
+        type: text
+        width: 1/2
+        required: true
+      link:
+        label: URL
+        type: text
+        width: 1/2
+        required: true

@@ -1,0 +1,47 @@
+Title: Future Shopper Report 2019
+
+----
+
+Title-toggle: true
+
+----
+
+Description:
+
+This year’s Future Shopper Report looks at the current commerce landscape through the lens of the modern shopping journey. The path to purchase today may be more complicated than ever, but everyone still looks for inspiration for something to buy, searches to find the best option, and chooses a place to purchase. Those three phases form the core elements of this report. 
+
+You may not know how to make your product show up first in a marketplace search, but we do.
+
+----
+
+Cta-toggle: true
+
+----
+
+Cta-label: Register
+
+----
+
+Cta-url: https://bit.ly/2Nc6wWg?fbclid=IwAR1PVxcg6eOE2NEy4jHgdKyHGJfH2tMni4baCy6KprAZU0TID2UQvfvbr8s
+
+----
+
+Font-color: 
+
+----
+
+Background-color: Pink
+
+----
+
+Background-image-toggle: true
+
+----
+
+Background-image-size-toggle: true
+
+----
+
+Background-image:
+
+- article-1-bg.jpg

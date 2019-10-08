@@ -1,0 +1,27 @@
+title: Masonry
+icon: dashboard
+
+options:
+  duplicate: false
+  preview: "{{ page.parent.url }}/#{{ page.slug }}"
+  changeSlug: false
+
+columns:
+  - width: 1/2
+    sections:
+      drafts:
+        extends: sections/masonry
+        headline: Drafts
+        status: draft
+
+      unlisted:
+        extends: sections/masonry
+        headline: In Review
+        status: unlisted
+
+  - width: 1/2
+    sections:
+      listed:
+        extends: sections/masonry
+        headline: Published
+        status: listed

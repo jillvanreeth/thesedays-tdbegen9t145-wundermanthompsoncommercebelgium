@@ -1,0 +1,39 @@
+Title: Footer Nav
+
+----
+
+Items:
+
+- 
+  name: Home
+  link: https://www.wundermanthompson.com/
+- 
+  name: About us
+  link: >
+    https://www.wundermanthompson.com/aboutus
+- 
+  name: News
+  link: https://www.wundermanthompson.com/news
+- 
+  name: Work
+  link: https://www.wundermanthompson.com/work
+- 
+  name: Leadership
+  link: >
+    https://www.wundermanthompson.com/leadership
+- 
+  name: Careers
+  link: >
+    https://www.wundermanthompson.com/careers
+- 
+  name: Contact us
+  link: >
+    https://www.wundermanthompson.com/contact-us
+- 
+  name: Privacy
+  link: >
+    https://www.wundermanthompson.com/privacy-policy
+- 
+  name: Cookie policy
+  link: >
+    https://www.wundermanthompson.com/cookie-policy

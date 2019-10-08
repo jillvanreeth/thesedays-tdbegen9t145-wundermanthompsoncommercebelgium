@@ -1,0 +1,94 @@
+Title: What we do
+
+----
+
+Title-toggle: true
+
+----
+
+Items:
+
+- 
+  highlighted_subtitle: 'Multichannel commerce strategy & intelligence'
+  subtitle: null
+  highlight_color: null
+  background_color: Cyan
+  font_color: White
+  description: |
+    Engage more digitally with your audience
+    to transact more business. From organisational design to ecommerce platform recommendation
+  cta_toggle: 'false'
+  cta_label: null
+  cta_url: null
+  line-a: null
+- 
+  highlighted_subtitle: 'Customer experience & profiling'
+  subtitle: null
+  highlight_color: null
+  background_color: Purple
+  font_color: White
+  description: >
+    Creating optimised multichannel journeys
+    that inspire to act and transact. Before
+    we formulate measurable action, we learn
+    who will buy, what they will buy and how
+    much.
+  cta_toggle: 'false'
+  cta_label: null
+  cta_url: null
+  line-a: null
+- 
+  highlighted_subtitle: Marketplace / Amazon services
+  subtitle: null
+  highlight_color: null
+  background_color: Yellow
+  font_color: White
+  description: >
+    Helping brands increase results on
+    Amazon and other online marketplaces.
+  cta_toggle: 'false'
+  cta_label: null
+  cta_url: null
+  line-a: null
+- 
+  highlighted_subtitle: Maximize commerce, growth acceleration
+  subtitle: null
+  highlight_color: null
+  background_color: Orange
+  font_color: White
+  description: >
+    Maximising your commerce investment
+    through real-time testing, optimization
+    and artificial intelligence.
+  cta_toggle: 'false'
+  cta_label: null
+  cta_url: null
+  line-a: null
+- 
+  highlighted_subtitle: Commerce platform delivery
+  subtitle: null
+  highlight_color: null
+  background_color: Green
+  font_color: White
+  description: >
+    Commercetools, Intershop, Salsify,
+    Dynamic Yield, Adobe Magento, ...
+  cta_toggle: 'false'
+  cta_label: null
+  cta_url: null
+  line-a: null
+- 
+  highlighted_subtitle: Getting the right return?
+  subtitle: null
+  highlight_color: null
+  background_color: Pink
+  font_color: White
+  description: >
+    Stay one step ahead of your competition.
+    Commerce Performance Check gives you
+    insights to improve your commerce
+    conversion.
+  cta_toggle: 'true'
+  cta_label: Start your free scan
+  cta_url: https://wundermanthompson.com
+  line-a: null

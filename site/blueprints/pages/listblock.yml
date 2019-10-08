@@ -1,0 +1,85 @@
+title: List block
+icon: add
+
+options:
+  delete: true
+  preview: "{{ page.parent.url }}/#{{ page.slug }}"
+
+status:
+    draft: 
+    label: Draft
+    text: The article is still in draft mode. It can only be seen by editors with panel access.
+  unlisted:
+    label: Unlisted
+    text: The article is online and can be visited with the direct URL.
+  listed:
+    label: Published
+    text: The article is online and published to the front page
+
+fields:
+  title_toggle:
+    extends: fields/title
+    width: 1/3
+
+  items:
+    label: Add item
+    type: structure
+    columns:
+      highlighted_subtitle:
+        width: 1/4
+      subtitle:
+        width: 1/4
+    fields:
+
+      highlighted_subtitle:
+        label: Subtitle part 1
+        type: text
+        help: 'This part of the subtitle will be highlighted in a different color.'
+        width: 1/2
+
+      subtitle:
+        label: Subtitle part 2
+        type: text
+        help: 'This part of the subtitle will be shown in the matching highlight color. This field is optional.'
+        width: 1/2
+
+      highlight_color:
+        label: Title pairing colors
+        extends: fields/colors
+        width: 1/4
+
+      line-a:
+        type: line
+
+      background_color:
+        label: Block background color
+        extends: fields/colors
+        width: 1/3
+
+      font_color:
+        label: Font color
+        extends: fields/colors
+        width: 1/3
+
+      description:
+        label: Description
+        type: markdown
+
+      cta_toggle:
+        label: Show or hide CTA
+        type: toggle
+        help: 'Toggle whether add a CTA'
+
+      cta_label:
+        when: 
+          cta_toggle: true
+        label: CTA label
+        type: text
+        width: 1/2
+
+      cta_url:
+        when: 
+          cta_toggle: true
+        label: CTA url
+        type: url
+        width: 1/2

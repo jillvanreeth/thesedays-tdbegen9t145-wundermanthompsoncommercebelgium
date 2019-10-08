@@ -1,0 +1,38 @@
+/**
+ *
+ * BOXING: VARS
+ *
+ */
+
+$breakpoints: (
+	'xsmall' 	:  500px,
+	'small'		:  600px,
+	'medium' 	:  768px,
+	'large' 	: 1024px,
+	'xlarge' 	: 1140px,
+	'xxlarge' : 1440px
+);
+
+$sections: (
+	'none'		:	100%,
+	'xxxsmall':  200px,
+	'xxsmall'	:  400px,
+	'xsmall'	:  600px,
+	'small'		:  768px,
+	'medium'	:  960px,
+	'large'		: 1024px,
+	'xlarge'	: 1140px,
+	'xxlarge'	: 1440px
+);
+
+$gaps: (
+	'none'		:		0px,
+	'xxxsmall':   4px,
+	'xxsmall'	: 7.5px,
+	'xsmall'	:  15px,
+	'small'		:  20px,
+	'medium'	:  30px,
+	'large'		:  40px,
+	'xlarge'	:  50px,
+	'xxlarge'	: 160px,
+);

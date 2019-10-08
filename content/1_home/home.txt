@@ -1,0 +1,47 @@
+Title: Home
+
+----
+
+Meta-description: We’are part of Wunderman Thompson Belgium and are the eCommerce consultancy that brings strategic clarity, technical know-how and creative inspiration to help retailers and brands define and deliver winning commerce strategies.
+
+----
+
+Meta-keywords: 
+
+----
+
+Fb-title: Wunderman Thompson Belgium
+
+----
+
+Fb-description: We’are part of Wunderman Thompson Belgium and are the eCommerce consultancy that brings strategic clarity, technical know-how and creative inspiration to help retailers and brands define and deliver winning commerce strategies.
+
+----
+
+Tw-title: Wunderman Thompson Belgium
+
+----
+
+Tw-description: We’are part of Wunderman Thompson Belgium and are the eCommerce consultancy that brings strategic clarity, technical know-how and creative inspiration to help retailers and brands define and deliver winning commerce strategies.
+
+----
+
+Share-image:
+
+- wt_logo_blue_positive_rgb.png
+
+----
+
+Meta-author: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 

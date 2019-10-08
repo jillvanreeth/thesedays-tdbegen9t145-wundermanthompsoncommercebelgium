@@ -1,0 +1,22 @@
+title: Listblocks
+icon: add
+
+columns:
+  - width: 1/2
+    sections:
+      drafts:
+        extends: sections/listblocks
+        headline: Drafts
+        status: draft
+
+      unlisted:
+        extends: sections/listblocks
+        headline: In Review
+        status: unlisted
+
+  - width: 1/2
+    sections:
+      listed:
+        extends: sections/listblocks
+        headline: Published
+        status: listed

@@ -1,0 +1,36 @@
+#{$theBody} {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	text-rendering: optimizeLegibility;
+	-webkit-text-size-adjust: 100%;
+}
+
+#{$theBucket} {
+	@include media('medium') {
+		line-height: 1.5;
+	}
+
+	font-family: $fontFamily;
+	font-size: fontSize('medium');
+	font-weight: 400;
+	line-height: 1.375;
+}
+
+.screenReader {
+	position: absolute;
+	left: -90210px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+

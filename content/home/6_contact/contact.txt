@@ -1,0 +1,29 @@
+Title: Contact
+
+----
+
+Title-toggle: true
+
+----
+
+Items:
+
+- 
+  contactname: Denis Ghys
+  jobtitle: Managing Director
+  linkedinpage: https://www.linkedin.com/in/denisghys/
+  visual:
+    - 0.jpg
+- 
+  contactname: Erwin Janssens
+  jobtitle: CEO
+  linkedinpage: >
+    https://www.linkedin.com/in/erwinjmtbjansen/
+  visual:
+    - 0-1.jpg
+- 
+  contactname: Gio Canini
+  jobtitle: 'CEO Wunderman Y&R Benelux'
+  linkedinpage: https://www.linkedin.com/in/giocanini/
+  visual:
+    - 0-2.jpg

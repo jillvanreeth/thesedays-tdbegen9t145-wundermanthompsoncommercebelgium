@@ -1,0 +1,42 @@
+Title: Trending
+
+----
+
+Title-toggle: true
+
+----
+
+Items:
+
+- 
+  title: "Why it's time for brands & retailers to 'double tap' social commerce"
+  linklabel: Read more
+  linkurl: >
+    https://www.wunderman-antwerp.be/news/why-its-time-brands-retailers-double-tap-social-commerce
+  visual:
+    - 1200-x-497_8.png
+- 
+  title: >
+    The purchasing power of millenials and
+    generation z
+  linklabel: Read more
+  linkurl: >
+    https://www.wunderman-antwerp.be/news/purchasing-power-millennials-and-generation-z
+  visual:
+    - 1200-x-497_11.png
+- 
+  title: Payment free shopping is the future
+  linklabel: Read more
+  linkurl: >
+    https://www.wunderman-antwerp.be/news/payment-free-shopping-future
+  visual:
+    - 1200-x-497_12.png
+- 
+  title: >
+    Marketplaces rise up in the battle for
+    customer attention
+  linklabel: Read more
+  linkurl: >
+    https://www.wunderman-antwerp.be/news/marketplaces-rise-battle-customer-attention
+  visual:
+    - 1200-x-497_4.png

@@ -1,0 +1,41 @@
+Title: Launching the first integrated commerce practice in 3...2...1... GO!
+
+----
+
+Title-toggle: true
+
+----
+
+Description: We’re launching in Belgium to help brands optimise their digital commerce across B2B and B2C channels.
+
+----
+
+Cta-toggle: true
+
+----
+
+Cta-label: Contact us
+
+----
+
+Cta-url: https://wundermanthompson.com
+
+----
+
+Font-color: 
+
+----
+
+Background-color: 
+
+----
+
+Background-image-toggle: true
+
+----
+
+Background-image-size-toggle: true
+
+----
+
+Background-image: - article-bg-3.jpg

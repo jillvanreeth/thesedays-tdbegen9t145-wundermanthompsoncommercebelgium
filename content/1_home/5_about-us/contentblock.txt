@@ -1,0 +1,71 @@
+Title: About us
+
+----
+
+Title-toggle: true
+
+----
+
+Subtitle-toggle: true
+
+----
+
+Highlighted-subtitle: Inspiring growth requires experts,
+
+----
+
+Subtitle: not generalists.
+
+----
+
+Description:
+
+**We’are part of Wunderman Thompson Belgium and are the eCommerce consultancy that brings strategic clarity, technical know-how and creative inspiration to help retailers and brands define and deliver winning commerce strategies. **
+
+**Wunderman Thompson Commerce globally connects 1500+ commerce experts comprising thinkers and doers; and works with leading technology partners like Commercetools, Adobe Magento, Intershop, Optimizely, Salsify and Dynamic Yield to move our clients ahead.**
+
+----
+
+Cta-toggle: false
+
+----
+
+Cta-select: 
+
+----
+
+Cta-label: 
+
+----
+
+Cta-url: 
+
+----
+
+Cta-email: 
+
+----
+
+Visual:
+
+- aboutus.jpg
+
+----
+
+Visual-alignment: right
+
+----
+
+Description-alignment: left
+
+----
+
+Background-color: Cyan
+
+----
+
+Font-color: White
+
+----
+
+Highlight-color: Blue

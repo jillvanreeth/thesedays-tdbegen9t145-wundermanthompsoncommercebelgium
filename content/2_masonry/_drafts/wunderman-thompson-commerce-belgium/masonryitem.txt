@@ -1,0 +1,41 @@
+Title: Wunderman Thompson Commerce Belgium
+
+----
+
+Title-toggle: false
+
+----
+
+Description: Wunderman Thompson Commerce Belgium is an eCommerce consultancy that brings strategic clarity, tech know-how and creative inspiration to help brands deliver winning commerce capabilities across digital channels: marketplaces (including Amazon), online retail and D2C.
+
+----
+
+Cta-toggle: false
+
+----
+
+Cta-label: 
+
+----
+
+Cta-url: 
+
+----
+
+Font-color: Black
+
+----
+
+Background-color: 
+
+----
+
+Background-image-toggle: false
+
+----
+
+Background-image-size-toggle: false
+
+----
+
+Background-image: 

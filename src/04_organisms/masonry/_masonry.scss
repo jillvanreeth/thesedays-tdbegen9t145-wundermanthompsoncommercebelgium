@@ -1,0 +1,28 @@
+.masonry {
+	@include media('small') {
+		padding: 0 gap('xxsmall') (gap('xlarge') / 2)
+	}
+
+	@include media('medium') {
+		padding: 0 0 (gap('xlarge') / 2);
+	}
+
+	display: block;
+	width: 100%;
+	max-width: section('xlarge');
+	margin: 0 auto;
+	padding: 0 gap('xsmall') gap('xxsmall');
+	font-size: 0;
+}
+
+.masonry__inner {
+	@include media('small') {
+		display: flex;
+	}
+}
+
+.masonry__col {
+	flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+}

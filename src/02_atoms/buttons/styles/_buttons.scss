@@ -1,0 +1,131 @@
+
+.button {
+	transition: color 250ms, border-color 250ms, background-color 250ms;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	height: 48px;
+	margin: 0;
+	padding: 0;
+	color: color('light');
+	font-family: inherit;
+	font-size: fontSize('small');
+	font-weight: 700;
+	line-height: 1;
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: 1.65px;
+	text-transform: uppercase;
+	border: 1px solid color('night');
+	border-radius: 0;
+	background-color: color('night');
+	cursor: pointer;
+
+	&.disabled {
+		cursor: default;
+	}
+}
+
+.button__label {
+	flex: 0 1 auto;
+	padding: 0 gap('small');
+
+	@include media('large') {
+		padding: 0 gap('large');
+	}
+}
+
+.button--outlined {
+	border: 1px solid color('light');
+	background-color: rgba(color('dark'), .10);
+
+	&:hover {
+		background-color: rgba(color('dark'), .20);
+	}
+}
+
+.button--fluid {
+	display: flex;
+	width: 100%;
+}
+
+.button--blue {
+	border: 1px solid color('blue');
+	background-color: color('blue');
+
+	&:hover {
+		color: color('blue');
+		background-color: color('light');
+	}
+}
+
+.button--pink {
+	border: 1px solid color('pink');
+	background-color: color('pink');
+
+	&:hover {
+		color: color('pink');
+		background-color: color('light');
+	}
+}
+
+.button--yellow {
+	border: 1px solid color('yellow');
+	background-color: color('yellow');
+
+	&:hover {
+		color: color('yellow');
+		background-color: color('light');
+	}
+}
+
+.button--cyan {
+	border: 1px solid color('cyan');
+	background-color: color('cyan');
+
+	&:hover {
+		color: color('cyan');
+		background-color: color('light');
+	}
+}
+
+.button--orange {
+	border: 1px solid color('orange');
+	background-color: color('orange');
+
+	&:hover {
+		color: color('orange');
+		background-color: color('light');
+	}
+}
+
+.button--purple {
+	border: 1px solid color('purple');
+	background-color: color('purple');
+
+	&:hover {
+		color: color('purple');
+		background-color: color('light');
+	}
+}
+
+.button--brown {
+	border: 1px solid color('brown');
+	background-color: color('brown');
+
+	&:hover {
+		color: color('brown');
+		background-color: color('light');
+	}
+}
+
+.button--green {
+	border: 1px solid color('green');
+	background-color: color('green');
+
+	&:hover {
+		color: color('green');
+		background-color: color('light');
+	}
+}
+

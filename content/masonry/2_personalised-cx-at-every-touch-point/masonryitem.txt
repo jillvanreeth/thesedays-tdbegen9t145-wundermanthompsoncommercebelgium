@@ -1,0 +1,46 @@
+Title: Enabling personalisation in every touchpoint
+
+----
+
+Title-toggle: true
+
+----
+
+Description:
+
+Our Global Dynamic Yield partnership provides brands 
+first-class personalisation through Artificial Intelligence and Machine Learning without the use of complex ecosystems.
+
+----
+
+Cta-toggle: false
+
+----
+
+Cta-label: 
+
+----
+
+Cta-url: 
+
+----
+
+Font-color: White
+
+----
+
+Background-color: Purple
+
+----
+
+Background-image-toggle: true
+
+----
+
+Background-image-size-toggle: true
+
+----
+
+Background-image:
+
+- article-bg-2.png

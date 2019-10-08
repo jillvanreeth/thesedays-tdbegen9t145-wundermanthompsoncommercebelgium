@@ -1,0 +1,138 @@
+title: Content Block
+
+options:
+  delete: true
+  status: true
+  preview: "{{ page.parent.url }}/#{{ page.slug }}"
+
+columns:
+  - width: 2/3
+    sections:
+
+      content:
+        type: fields
+        fields:
+
+          title_toggle:
+            extends: fields/title
+            width: 1/2
+          
+          subtitle_toggle:
+            type: toggle
+            label: Show or hide subtitle
+            default: true
+            width: 1/2
+
+          highlighted_subtitle:
+            label: Subtitle part 1
+            type: text
+            help: 'This part of the subtitle will be highlighted in a different color.'
+            width: 1/2
+            when: 
+              subtitle_toggle: true
+
+          subtitle:
+            label: Subtitle part 2
+            type: text
+            help: 'This part of the subtitle will be shown in the chosen font color. This field is optional.'
+            width: 1/2
+            when: 
+              subtitle_toggle: true
+
+          description:
+            label: Description
+            type: markdown
+
+          line-a:
+            type: line
+
+      cta_step1:
+        type: fields
+        fields:
+          cta_toggle:
+            label: Show or hide CTA
+            type: toggle
+            help: 'Toggle whether add a CTA'
+            width: 1/2
+
+          cta_select:
+            label: Select type
+            type: select
+            when: 
+              cta_toggle: true
+            default: -
+            options:
+              urlfield: Url
+              emailfield: Email
+            width: 1/2
+
+      cta_step2:
+        type: fields
+        fields:
+          cta_label:
+            when: 
+              cta_toggle: true
+            label: CTA label
+            type: text
+            width: 1/2
+
+          cta_url:
+            when: 
+              cta_select: urlfield
+            label: CTA url
+            type: url
+            width: 1/2
+
+          cta_email:
+            when: 
+              cta_select: emailfield
+            label: CTA email
+            type: email
+            width: 1/2
+
+          line-b:
+            type: line
+
+      files:
+        type: fields
+        fields:
+          visual:
+            label: Visual
+            extends: fields/visual
+
+          visual_alignment:
+            type: radio
+            label: Layout
+            default: left
+            options:
+              left: 'Align image to the left, text to the right.'
+              right: 'Align image to the right, text to the left.'
+            width: 1/2
+
+  - width: 1/3
+    sections:
+
+      settings:
+       type: fields
+       fields:
+
+        description_alignment:
+          type: radio
+          label: Align description
+          default: left
+          options:
+            left: Align description left
+            right: Align description right
+            center: Center description
+
+        background_color:
+          label: Background color
+          extends: fields/colors
+
+        font_color:
+          label: Font color
+          extends: fields/colors
+
+        highlight_color:
+          label: Highlight color
+          extends: fields/colors

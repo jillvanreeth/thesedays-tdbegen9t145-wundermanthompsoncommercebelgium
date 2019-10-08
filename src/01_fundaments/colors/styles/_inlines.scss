@@ -1,0 +1,28 @@
+@each $colorName, $colorValue, $color in $colors {
+  .fc--#{$colorName} {
+    color: color(#{$colorName});
+  }
+
+  .bgc--#{$colorName} {
+    background-color: color(#{$colorName});
+  }
+}
+
+@each $colorpairingName, $colorpairing in $colorpairings {
+	
+	.cp--#{$colorpairingName} {
+		
+		@each $cpName, $cpValue, $cp in $colorpairing {
+			@if $cpName == 'primary' {
+				color: $cpValue;
+			}
+
+			@if $cpName == 'secondary' {
+				
+			+ * {
+					color: $cpValue;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+title: Site
+
+columns:
+  - width: 1/2
+    sections:
+      masonry: sections/masonry
+      contentblocks: sections/contentblocks
+      listblocks: sections/listblocks
+      articles: sections/articles
+
+  - width: 1/2
+    sections:
+      pages:
+        status: published
+        sortable: false
+        type: pages
+        create: default
+        template:
+          - about
+          - home
+          - default
+
+      general:
+        type: pages
+        create: false
+        status: unlisted
+        template:
+          - footer
+          - social

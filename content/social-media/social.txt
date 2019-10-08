@@ -1,0 +1,39 @@
+Title: Social Media
+
+----
+
+Items:
+
+- 
+  category: facebook
+  url: >
+    https://www.facebook.com/WundermanThompson/
+- 
+  category: instagram
+  url: https://www.instagram.com/wunthompson/
+- 
+  category: twitter
+  url: https://twitter.com/WunThompson
+- 
+  category: linkedin
+  url: >
+    https://www.linkedin.com/company/wunderman-thompson/
+
+----
+
+Social-items:
+
+- 
+  category: instagram
+  url: https://www.instagram.com/wunthompson/
+- 
+  category: linkedin
+  url: >
+    https://www.linkedin.com/company/wunderman-thompson/
+- 
+  category: facebook
+  url: >
+    https://www.facebook.com/WundermanThompson/
+- 
+  category: twitter
+  url: https://twitter.com/WunThompson

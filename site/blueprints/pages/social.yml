@@ -1,0 +1,35 @@
+title: Social Media
+
+options: 
+  changeSlug: false
+  preview: "{{ page.parent.url }}/#{{ page.slug }}"
+  delete: true
+
+fields:
+  items:
+    label: Social Media
+    type: structure
+    style: table
+    entry:
+      - category
+
+    fields:
+      category:
+        label: Social Media Channel
+        type: select
+        options:
+          facebook: Facebook
+          youtube: Youtube
+          instagram: Instagram
+          twitter: Twitter
+          linkedin: LinkedIn
+        width: 1/2
+        required: true
+
+      url:
+        label: Url
+        type:  url
+        required: true
+        width: 1/2
+
+

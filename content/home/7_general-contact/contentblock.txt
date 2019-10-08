@@ -1,0 +1,76 @@
+Title: General Contact
+
+----
+
+Title-toggle: false
+
+----
+
+Subtitle-toggle: false
+
+----
+
+Highlighted-subtitle: 
+
+----
+
+Subtitle: 
+
+----
+
+Description:
+
+### Wunderman Thompson Commerce Belgium
+**Generaal Lemanstraat 47 box 2 – 2018 Antwerpen
+Eikelenbergstraat 20, 1700 Dilbeek**
+
+**Need more information?
++32 (0) 3 286 44 50**
+
+----
+
+Cta-toggle: true
+
+----
+
+Cta-select: emailfield
+
+----
+
+Cta-label: Send email
+
+----
+
+Cta-url: 
+
+----
+
+Cta-email: joske@vermeulen.com
+
+----
+
+Visual: 
+
+----
+
+Visual-alignment: 
+
+----
+
+Description-alignment: center
+
+----
+
+Background-color: 
+
+----
+
+Font-color: 
+
+----
+
+Highlight-color: Blue
+
+----
+
+Alignment: left
